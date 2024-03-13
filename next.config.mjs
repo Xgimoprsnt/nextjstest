@@ -3,7 +3,6 @@ const nextConfig = {
   reactStrictMode: true,
   output: 'export',
   distDir: 'dist',
-  assetPrefix:'/.next/'
 };
 // dd
 
