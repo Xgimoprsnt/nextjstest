@@ -4,7 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
   output: 'export',
   distDir: 'dist',
-  // basePath: isProduction ? '/test' : '',
+  basePath: isProduction ? '/nextjstest' : '',
   assetPrefix: isProduction ? '/nextjstest' : '',
 };
 // dd
