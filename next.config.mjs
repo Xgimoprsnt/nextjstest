@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
-const isProduction = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
   distDir: 'dist',
-  basePath: isProduction ? '/nextjstest' : '',
-  assetPrefix: isProduction ? '/nextjstest' : '',
+  basePath: '/nextjstest' ,
+  assetPrefix:'/nextjstest' 
 };
 // dd
 
