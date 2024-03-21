@@ -3,7 +3,7 @@ import LayoutTwo from '@/components/layout/layoutTwo'
 import type { NextPageWithLayout } from './_app'
  
 const Page: NextPageWithLayout = () => {
-  return <p>2222222333       page</p>
+  return <p>22222223332233334444</p>
 }
  
 Page.getLayout = function getLayout(page: ReactElement) {
